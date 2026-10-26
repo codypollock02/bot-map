@@ -1,5 +1,5 @@
 {
- "as_of": "Oct 25, 2026, 9:45 PM MT",
+ "as_of": "Oct 25, 2026, 10:14 PM MT",
  "groups": [
   {
    "key": "work",
@@ -78,13 +78,13 @@
     },
     {
      "id": "rai-proj-3",
-     "title": "Project #3: Therapixel / MammoScreen breast AI (MIC)",
+     "title": "Project #3: Therapixel / MammoScreen breast AI (two tracks: RAI direct vs MIC eval)",
      "status": "active",
      "status_label": "Active Project",
      "detail": "Thomas chased Jeff Oct 15; waiting on Jeff V to finalize evaluation once lead breast radiologist is back.",
      "source": "rai-projects.md · Active Projects",
      "updated": "Oct 23, 2026",
-     "prompt": "Give me the current status and next action on RAI Project #3 (Therapixel / MammoScreen breast AI (MIC))."
+     "prompt": "Give me the current status and next action on RAI Project #3 (Therapixel / MammoScreen breast AI (two tracks: RAI direct vs MIC eval))."
     },
     {
      "id": "rai-proj-4",
@@ -1248,7 +1248,7 @@
   "Cabin: Property Management Bot says the 208 Clematis Ave family cabin is Family Bot's, but Family Bot's own description doesn't list it; MVI and HHPS Bot owns the Waterton cabin transfer into HHPS.",
   "Notes Bot routes family notes to Family Bot and doesn't yet mention MVI and HHPS Bot for extended-family notes."
  ],
- "tasks_as_of": "Oct 25, 2026, 9:45 PM MT",
+ "tasks_as_of": "Oct 25, 2026, 10:14 PM MT",
  "task_summary": {
   "total": 52,
   "needs_cody": 27,
