@@ -1335,5 +1335,13 @@
   "active": 12,
   "waiting": 19,
   "settled_filtered": true
+ },
+ "task_summary": {
+  "as_of": "Oct 26, 2026, 11:06 PM MT",
+  "total": 50,
+  "needs_cody": 19,
+  "active": 12,
+  "waiting": 19,
+  "settled_filtered": true
  }
 }
