@@ -1,5 +1,5 @@
 {
- "as_of": "Oct 26, 2026, 10:43 PM MT",
+ "as_of": "Oct 26, 2026, 10:45 PM MT",
  "groups": [
   {
    "key": "work",
@@ -44,7 +44,7 @@
     "Money → Finance",
     "Facts → Context"
    ],
-   "wakes": "Weekdays: urgent mail check 9:06, 10:06, 12:06, 2:06, 4:06, 6:06; to-do 9:30 AM. Friday rollup 2:06 PM. On demand.",
+   "wakes": "3 routines (16 runs/wk) + 1 one-off: urgent mail check weekdays 12:30 & 4:30 PM MT (silent unless urgent); 9:30 AM MT weekday RAI to-do (deduped via todo-raised.json); Friday 2:06 PM MT weekly rollup; on demand.",
    "reads": [
     "cpollock@radiologyassociatesinc.com (Outlook)",
     "RAI threads in codypollock@gmail.com",
@@ -251,25 +251,23 @@
   {
    "id": "e872c9b6-ddce-4f42-835b-a07423684c85",
    "group": "work",
-   "job": "Tracks CME credits and licence deadlines, and drafts the submissions.",
+   "job": "Tracks CME credits, conference certificates, and annual CPSA, AMA, Royal College and CAR/mammography obligations on the CP Reminders calendar, and checks weekly.",
    "owns": [
-    "CME credits and conference certificates",
-    "CPSA, AMA and Royal College deadlines",
-    "CAR and mammography accreditation",
-    "Conference dates (from registration mail)",
-    "Drafting submissions"
+    "Annual CME, CPSA (020093), AMA, Royal College MOC and CAR/mammography deadlines on the CP Reminders calendar",
+    "Weekly Monday 9:07 AM MT check of CP Reminders calendar and pollockradiology@gmail.com",
+    "Drafting credit and certificate submissions (Tiffany Lister / Keri Hamel for CAR MAP)"
    ],
    "handoff": [
     "RAI operations → RAI",
     "Karen's mailbox → asks Finance first",
     "Dues and renewals → Cody pays, Finance for money"
    ],
-   "wakes": "Weekdays 9:07 AM obligations check (silent unless needed). Day after each conference (Banff: Oct 26, 10:00 AM). On demand.",
+   "wakes": "1 routine (1 run/wk) + 1 one-off: Mondays 9:07 AM MT CP Reminders calendar & society-obligations email check (silent unless needed); post-conference check (Banff: Oct 30, 10:00 AM MT); on demand.",
    "reads": [
-    "pollockradiology@gmail.com",
-    "Royal College My MOC",
-    "CPSA and AMA portals",
-    "Tiffany Lister (CAR MAP record), Keri Hamel at CAR"
+    "CP Reminders Google Calendar (never Cody & Renee's primary calendar or Kids/Home)",
+    "pollockradiology@gmail.com (conference registrations and certificates)",
+    "Royal College My MOC, CPSA (020093) and AMA portals",
+    "cody-context.md Settled list"
    ],
    "keywords": "cme licence license cpsa ama royal college car mammography banff conference moc tiffany keri",
    "name": "Radiology CME & License",
@@ -317,7 +315,7 @@
     "Build schedules → Acreage Build",
     "Negotiating → Hagglebot"
    ],
-   "wakes": "On demand; when RE Deal Desk sends a deal; reply watches weekdays 9:00 AM to 5:00 PM, each with an end date.",
+   "wakes": "0 recurring routines (0 runs/wk): on demand; when RE Deal Desk or CP EMAIL CHECKER sends a deal/item; temporary reply watches with an end date.",
    "reads": [
     "Drive: Finance Bot folder (LATEST.md, summary_all.json)",
     "cppc.assistant@gmail.com (Karen Salmon)",
@@ -407,7 +405,7 @@
     "RAI vendor contracts → through RAI",
     "Cancel, switch or sign → Cody"
    ],
-   "wakes": "When Finance flags a cost, when Cody asks, and follow-ups Cody approved.",
+   "wakes": "0 routines (0 runs/wk): when Finance or CP EMAIL CHECKER flags a cost, when Cody asks, and approved follow-ups.",
    "reads": [
     "Finance's flags",
     "Bills and contracts Cody points to in codypollock@gmail.com",
@@ -488,7 +486,7 @@
     "Teaching → RE Coach",
     "Reading email → CP EMAIL CHECKER"
    ],
-   "wakes": "When a deal arrives, or when Cody asks.",
+   "wakes": "0 routines (0 runs/wk): when a deal arrives from CP EMAIL CHECKER, or when Cody asks.",
    "reads": [
     "Deal mail handed over by CP EMAIL CHECKER",
     "Drive: RE Empire Deal Pipeline",
@@ -557,7 +555,7 @@
     "Screening → RE Deal Desk",
     "Underwriting and deal math → Finance"
    ],
-   "wakes": "When RE Deal Desk sends a deal, and when new quarterly reports come out.",
+   "wakes": "0 routines (0 runs/wk): when RE Deal Desk sends a deal, and when new quarterly reports come out.",
    "reads": [
     "Drive: RE Empire Deal Pipeline (00 Admin)",
     "RentFaster and Facebook Marketplace rental comps (Grok Bot vault / Secure Form / 1Password logins, read-only)",
@@ -596,7 +594,7 @@
     "Numbers → Finance",
     "Legal or tax → Ebony Verbonac or a lawyer"
    ],
-   "wakes": "On demand only.",
+   "wakes": "0 routines (0 runs/wk): on demand only.",
    "reads": [
     "Drive: RE Empire Deal Pipeline, 00 Admin"
    ],
@@ -624,7 +622,7 @@
     "MVI and HHPS properties → MVI and HHPS Bot",
     "Bookkeeping → Karen, through Finance"
    ],
-   "wakes": "On demand, and when CP EMAIL CHECKER, Chief or Finance hands it property mail. No routines yet.",
+   "wakes": "0 routines (0 runs/wk): on demand, and when CP EMAIL CHECKER, Chief or Finance hands it property mail.",
    "reads": [
     "Property mail handed over by CP EMAIL CHECKER",
     "Finance's QuickBooks reports, via Finance",
@@ -675,7 +673,7 @@
     "RAI meetings → RAI",
     "Money → Finance"
    ],
-   "wakes": "Nightly 7:59 PM chat check; handoffs from CP EMAIL CHECKER; on demand.",
+   "wakes": "1 routine (7 runs/wk): nightly 7:59 PM MT chat & calendar check (3 legacy email routines deleted); handoffs from CP EMAIL CHECKER; on demand.",
    "reads": [
     "Kids/Home calendar",
     "Main calendar",
@@ -717,7 +715,7 @@
     "Property deals → RE Deal Desk",
     "Tax and legal advice → the accountants and lawyers"
    ],
-   "wakes": "On demand and on handoffs from CP EMAIL CHECKER, Chief and Family Bot's nightly check. No routines.",
+   "wakes": "0 routines (0 runs/wk): on demand and on handoffs from CP EMAIL CHECKER, Chief and Family Bot's nightly check.",
    "reads": [
     "Company and family mail handed over from codypollock@gmail.com",
     "Family chats handed over by Family Bot",
@@ -776,7 +774,7 @@
     "Money math and the builder mortgage → Finance",
     "Karen's mailbox → asks Finance"
    ],
-   "wakes": "Mon, Wed and Fri 4:30 PM build updates; on demand.",
+   "wakes": "1 routine (3 runs/wk): Mon, Wed and Fri 4:30 PM MT build updates; on demand.",
    "reads": [
     "Spencer Court Build Timeline doc",
     "Rob Pricing vs Actual Quotes sheet",
@@ -837,7 +835,7 @@
     "Acreage build purchases → Acreage Build",
     "Family plans → Family Bot"
    ],
-   "wakes": "On request, plus auction watches Cody sets.",
+   "wakes": "0 recurring routines (0 runs/wk) + 1 one-off: Nov 27, 2026 9:00 AM MT reminder (3 days before Nov 30 Lethbridge Ritchie Bros sale); on request (watch relays before 9:00 AM MT hold until 9:00 AM).",
    "reads": [
     "Order and receipt mail in codypollock@gmail.com",
     "Amazon.ca and Lethbridge stores",
@@ -879,7 +877,7 @@
     "Acreage → Acreage Build; rentals → Property Management Bot",
     "MVI, HHPS, parents, in-laws, lawyers and accountants → MVI and HHPS Bot"
    ],
-   "wakes": "9:00 AM, 9:15 AM, 11:00 AM, 3:00 PM and 7:30 PM passes; sessions on demand.",
+   "wakes": "3 scheduled routines (21 runs/wk) + 1 inbox router: unified passes at 9:00 AM, 1:30 PM and 7:30 PM MT (routes all lanes & refreshes list-queue.json); codypollock@mail.grokbot.com router; sessions on demand ('run the list').",
    "reads": [
     "codypollock@gmail.com only",
     "Never the RAI, rogerbot or CPPC mailboxes"
@@ -925,7 +923,7 @@
     "Unclear owner → Chief",
     "Facts → Context"
    ],
-   "wakes": "When Cody sends a note, and at each reminder time he set.",
+   "wakes": "0 recurring routines (0 runs/wk): when Cody sends a note, and at each one-off reminder time he set.",
    "reads": [
     "Cody's Notes (Google Doc)",
     "cody-context.md"
@@ -952,7 +950,7 @@
     "Facts and decisions → Context",
     "RAI items → RAI's 9:30 list"
    ],
-   "wakes": "Tue to Fri 9:10 AM brief; Monday desk review 9:00 AM or later; silent heartbeat; on demand.",
+   "wakes": "2 routines (5 runs/wk): Tue to Fri 9:10 AM MT brief (7-day brief-raised.json dedupe); Monday desk review 9:00 AM MT or later; no Mac mini heartbeat; on demand.",
    "reads": [
     "cody-context.md",
     "codypollock@gmail.com and Google Calendar, read-only",
@@ -990,7 +988,7 @@
     "Settled list changes → Cody only",
     "Conflicting evidence → Cody, as a question"
    ],
-   "wakes": "When a bot sends a fact or a question; nightly 10:59 PM doc check (silent).",
+   "wakes": "1 routine (7 runs/wk): nightly 10:59 PM MT doc check (1-step fast exit when no new bot notes arrived); when a bot sends a fact or question.",
    "reads": [
     "cody-context.md only"
    ],
@@ -1014,7 +1012,7 @@
     "A bot's dropped task → that bot",
     "Findings and changes → Chief"
    ],
-   "wakes": "Weekdays 9:15 AM friction check; Monday 9:40 AM routine check and 9:45 AM audit; on demand.",
+   "wakes": "3 routines (7 runs/wk): weekdays 9:15 AM MT friction check; Monday 9:40 AM routine + token/volume check and 9:45 AM standard audit; on demand.",
    "reads": [
     "Bots' chat history (search index)",
     "Each bot's profile",
@@ -1044,11 +1042,9 @@
    "group": "system",
    "job": "Build coach: teaches Cody to build apps and tools, from no-code up to real code.",
    "owns": [
-    "A short weekly lesson",
-    "Learning by doing on real projects",
-    "Builds with Claude Code and Codex, side by side",
-    "Lesson log",
-    "The Bot Ownership Map (https://codypollock02.github.io/bot-map/, Sunday refresh and new map features)"
+    "Step-by-step coding and build lessons on Cody's real projects (poteto-mode bar)",
+    "Bot Ownership Map (https://codypollock02.github.io/bot-map/), refreshed daily at 6:00 PM MT and on demand",
+    "Side-by-side options before building when there are 2–3 real ways to go"
    ],
    "handoff": [
     "Data in another lane → asks that bot",
@@ -1056,7 +1052,7 @@
     "Any release to other people → Cody's go-ahead",
     "Money figures → Finance; facts → Context"
    ],
-   "wakes": "Saturday 10:00 AM weekly lesson (Cody can move it); Sunday 9:00 AM Bot Ownership Map refresh (quiet); on demand.",
+   "wakes": "2 routines (8 runs/wk): Saturday 10:00 AM MT weekly lesson; daily 6:00 PM MT quiet Bot Ownership Map refresh (so it's ready before evening list runs); on demand.",
    "reads": [
     "Claude Code and Codex on the box and the Mac mini",
     "Project files in /workspace/forge",
@@ -1093,7 +1089,7 @@
     "New-bot or feature ideas Cody says yes to → dr eggbot",
     "Buy or sell calls → Finance"
    ],
-   "wakes": "Weekdays 9:20 AM MT @bot watch; on demand.",
+   "wakes": "1 routine (5 runs/wk): weekdays 9:20 AM MT @bot watch (silent unless worth copying); on demand.",
    "reads": [
     "Built-in X tools",
     "/home/box/agent-data/x-bot/watches.md"
@@ -1249,7 +1245,7 @@
   "Cabin: Property Management Bot says the 208 Clematis Ave family cabin is Family Bot's, but Family Bot's own description doesn't list it; MVI and HHPS Bot owns the Waterton cabin transfer into HHPS.",
   "Notes Bot routes family notes to Family Bot and doesn't yet mention MVI and HHPS Bot for extended-family notes."
  ],
- "tasks_as_of": "Oct 26, 2026, 10:43 PM MT",
+ "tasks_as_of": "Oct 26, 2026, 10:45 PM MT",
  "task_summary": {
   "total": 52,
   "needs_cody": 27,
