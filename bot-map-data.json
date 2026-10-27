@@ -1,5 +1,5 @@
 {
- "as_of": "Oct 26, 2026, 11:07 PM MT",
+ "as_of": "Oct 26, 2026, 11:08 PM MT",
  "groups": [
   {
    "key": "work",
@@ -57,13 +57,40 @@
    "description_sha": "5ceb972fac52",
    "tasks": [
     {
-     "id": "rai-todo-1",
-     "title": "MicroAge Sask (Devon McCubbin) — confirm shift to 10:30 AM MT (Thu Oct 29)",
-     "status": "needs_cody",
-     "category": "Needs Cody",
-     "detail": "Cody confirmed Thu Oct 29 at 10:00 AM MT on Oct 26 (10:35 AM MT), and Devon replied at 10:44 AM MT asking to move it 30 minutes later to 10:30 AM MT (Teams invite 1a17919d965d6a89 in list-queue.json).",
+     "id": "rai-proj-1",
+     "title": "Project #1: Echo Booking install (RAI/IT)",
+     "status": "active",
+     "category": "RAI Project",
+     "detail": "Signed Sept 17; Jeff V walkthrough done Oct 14 (IMA foundations, MI test RIS hookup, HIA/PIA questionnaire). On Oct 25 Faizaan reported 'Access is denied' on MedInformatix files on Cody's server (forwarded to Colin Seely Oct 25). Next: Colin fixes MedInformatix folder permissions; Echo team meeting Tue Oct 27 1:30 PM MT.",
      "updated": "Oct 26, 2026",
-     "prompt": "Draft a quick reply to Devon McCubbin confirming 10:30 AM MT on Thursday, Oct 29 (or offering another slot) and update my calendar."
+     "prompt": "Give me the current status and next action on Project #1: Echo Booking install (RAI/IT)."
+    },
+    {
+     "id": "rai-proj-2",
+     "title": "Project #2: Presto (AHS request + Hoppr rollout)",
+     "status": "active",
+     "category": "RAI Project",
+     "detail": "Active: Jeff V replied Oct 25 that he shared the AMA IMA template with Presto for legal review and can activate subscriptions for all rads once Craig gives a credit card and Cody sends the list of names (locum yeses: John Whelan, Karyn Martin). Open: AHS ServiceHub NSW request, Craig credit card & rad/locum list to Jeff V.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Give me the current status and next action on Project #2: Presto (AHS request + Hoppr rollout)."
+    },
+    {
+     "id": "rai-proj-3",
+     "title": "Project #3: Therapixel / MammoScreen breast AI (RAI direct quote)",
+     "status": "active",
+     "category": "RAI Project",
+     "detail": "MIC evaluation track dropped Oct 25 per Cody. On the RAI direct track, Cody sent a follow-up to Colin Seely Oct 25, and on Oct 26 (10:31 AM MT) resent the full earlier thread and Technical Blueprint questions to Mike Wong & Colin Seely (1a0832c6a1fd52d8; Oct 28 follow-up routine set).",
+     "updated": "Oct 26, 2026",
+     "prompt": "Give me the current status and next action on Project #3: Therapixel / MammoScreen breast AI (RAI direct quote)."
+    },
+    {
+     "id": "rai-proj-4",
+     "title": "Project #4: USA for new real estate holding company (857520 Alberta Ltd)",
+     "status": "active",
+     "category": "RAI Project",
+     "detail": "Decision pending (age-78 clause consensus reached Oct 9 per Jeff Quon; signing date not yet confirmed). Open questions: why retroactive to Sep 1, 2025 vs Sep 1, 2026, and Meedya's buy-in status before signing.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Give me the current status and next action on Project #4: USA for new real estate holding company (857520 Alberta Ltd)."
     },
     {
      "id": "rai-todo-2",
@@ -154,12 +181,75 @@
      "detail": "Waiting on Meedya's buy-in status update and the rescheduled monthly owners' business meeting.",
      "updated": "Oct 26, 2026",
      "prompt": "What is the latest update on Meedya's buy-in and the rescheduled owners' business meeting?"
+    },
+    {
+     "id": "rai-dyn-3",
+     "title": "USA: decide whether to sign; get an answer on why it's retroactive to Sep 1, 2025.",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "USA: decide whether to sign; get an answer on why it's retroactive to Sep 1, 2025.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: USA: decide whether to sign; get an answer on why it's retroactive to Sep 1, 2025."
+    },
+    {
+     "id": "rai-dyn-4",
+     "title": "Preliminary reports (#7): Craig answered Oct 15: yes to a printable prelim template (MIC/N",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "Preliminary reports (#7): Craig answered Oct 15: yes to a printable prelim template (MIC/Nuance building it), no to billing signing on behalf unless the rads agree. Working session Tue Oct 20, 10:30 AM MT. Cody's call only if the sign-on-behalf idea comes back to the rads.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: Preliminary reports (#7): Craig answered Oct 15: yes to a printable prelim template (MIC/N"
+    },
+    {
+     "id": "rai-dyn-5",
+     "title": "MIC visit (Jeff): Jeff is on site Mon Oct 19 afternoon and Tue Oct 20 (BGSA visit Mon 2 PM",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "MIC visit (Jeff): Jeff is on site Mon Oct 19 afternoon and Tue Oct 20 (BGSA visit Mon 2 PM; prelim-reports session Tue 10:30 AM). A separate service-review / 6- and 12-month planning slot with Cody, Craig and Heather isn't scheduled anywhere I can see.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: MIC visit (Jeff): Jeff is on site Mon Oct 19 afternoon and Tue Oct 20 (BGSA visit Mon 2 PM"
+    },
+    {
+     "id": "rai-dyn-6",
+     "title": "Kailo/worksheets: Oct 6 Cody noted an incomplete tech fill-out seems to break a macro (\"ma",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "Kailo/worksheets: Oct 6 Cody noted an incomplete tech fill-out seems to break a macro (\"macro missing clot\") and said it needs fixing. Owner not named (likely MIC/Ibukun, see #18).",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: Kailo/worksheets: Oct 6 Cody noted an incomplete tech fill-out seems to break a macro (\"ma"
+    },
+    {
+     "id": "rai-dyn-8",
+     "title": "Learning-points newsletter: Oct 9 Cody asked RAI to scrub his email for lessons like the K",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "Learning-points newsletter: Oct 9 Cody asked RAI to scrub his email for lessons like the KailoFlow abdo-wall worksheet fix (techs must add the sheet) and maybe track errors in Teams.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: Learning-points newsletter: Oct 9 Cody asked RAI to scrub his email for lessons like the K"
+    },
+    {
+     "id": "rai-dyn-10",
+     "title": "Craig's bonus KPIs: any more ideas to the partner meeting Craig this week (Cody sent sever",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "Craig's bonus KPIs: any more ideas to the partner meeting Craig this week (Cody sent several Oct 16; a partner backed MW's bonus proposal Oct 17).",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: Craig's bonus KPIs: any more ideas to the partner meeting Craig this week (Cody sent sever"
+    },
+    {
+     "id": "rai-dyn-12",
+     "title": "M365 consent: Craig (Oct 19 8:00 AM) still gets the admin-consent error; reply to Craig / ",
+     "status": "needs_cody",
+     "category": "Needs Cody",
+     "detail": "M365 consent: Craig (Oct 19 8:00 AM) still gets the admin-consent error; reply to Craig / chase Chinook IT.",
+     "updated": "Oct 26, 2026",
+     "prompt": "Help me with this open RAI item: M365 consent: Craig (Oct 19 8:00 AM) still gets the admin-consent error; reply to Craig / "
     }
    ],
    "task_counts": {
-    "total": 11,
-    "needs_cody": 4,
-    "active": 0,
+    "total": 21,
+    "needs_cody": 10,
+    "active": 4,
     "waiting": 7
    }
   },
@@ -1329,18 +1419,18 @@
   "Notes Bot routes family notes to Family Bot and doesn't yet mention MVI and HHPS Bot for extended-family notes."
  ],
  "tasks_summary": {
-  "as_of": "Oct 26, 2026, 11:07 PM MT",
-  "total": 50,
-  "needs_cody": 19,
-  "active": 12,
+  "as_of": "Oct 26, 2026, 11:08 PM MT",
+  "total": 60,
+  "needs_cody": 25,
+  "active": 16,
   "waiting": 19,
   "settled_filtered": true
  },
  "task_summary": {
-  "as_of": "Oct 26, 2026, 11:07 PM MT",
-  "total": 50,
-  "needs_cody": 19,
-  "active": 12,
+  "as_of": "Oct 26, 2026, 11:08 PM MT",
+  "total": 60,
+  "needs_cody": 25,
+  "active": 16,
   "waiting": 19,
   "settled_filtered": true
  }
